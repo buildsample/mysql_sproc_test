@@ -11,4 +11,4 @@ script:
  - mysql -D fizzbin -e 'call foobar();'
  - mysql -ushippable -e "show variables like '%version';"
 #cache: true
-#build_image: shippable/minv2
+build_image: drydock/u14pytpls:prod
